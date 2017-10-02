@@ -1,0 +1,34 @@
+﻿<html>
+  <head>
+    <title>Панель ярлыков</title>
+    <hta:application
+        Id = "SPbKVK-HTA"
+        ApplicationName = "Panel"
+        Border = "No"
+        Icon = "No"
+        InnerBorder = "No"
+        MaximizeButton = "No"
+        MinimizeButton = "No"
+        Scroll = "No"
+        Selection = "No"
+        ShowInTaskBar = "Yes"
+        SingleInstance = "yes"
+		navigable = "No"
+		selection = "No"
+		version="11.0"
+	/>
+	<script language=javascript>
+		var winWidth=800; // ширина окна
+		var winHeight=800; // высота окна
+		// изменяем размер
+		window.resizeTo(winWidth, winHeight);
+		// окно в центр экрана
+		var winPosX=screen.width/10-winWidth/10;
+		var winPosY=screen.height/7-winHeight/7;
+		window.moveTo(winPosX, winPosY);
+	</script>
+<link href="css\style.css" rel="stylesheet" type="text/css"/>
+<li><a href="/page/book1.html" title=""><img src="images\pdf.ico"></li>
+<li><a href="/page/book2.html"> <img src="images\pdf.ico"></li>
+<li><a href="/page/book3.html"> <img src="images\pdf.ico"></li>
+</html>

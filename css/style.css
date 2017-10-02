@@ -1,0 +1,58 @@
+body
+{
+	margin:10px;
+	background-color: c2ffe0;
+    max-width: 320px;
+		}
+img{
+	width:7%;
+	display:inherit;
+}
+ A:link {
+	color:c2ffe0;	 
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    outline: none;
+	border:0;
+	} 
+A:focus{
+	color:c2ffe0;	 
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    outline: none;
+	border:0;	
+	}
+ A:visited { 
+	color:c2ffe0;	 
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+	outline: none;
+	border:0;
+ } 
+ A:active { 
+	color:c2ffe0;	 
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    outline: none;
+	border:0;
+ }
+A:hover {
+	outline: none;
+	text-decoration: none; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+    color: c2ffe0; /* Цвет ссылки */
+	border:0;
+   }
+li {
+	list-style-type: decimal;
+	font-size: 20px;
+}
+ol {
+	list-style-type: decimal;
+}
+.documentooborot {
+background-image: url(images\1.png);
+padding:0px;
+padding-left:10px;
+padding-top:10px;  
+}
+/*.bdok {
+padding:0px;
+padding-left:2%;
+padding-top:10px;    
+}*/
